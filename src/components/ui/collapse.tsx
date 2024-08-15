@@ -6,11 +6,7 @@ interface CollapseProps {
 }
 
 const Collapse = ({ children, isOpen }: CollapseProps) => {
-  const animate = {
-    transition: { type: "tween" },
-    height: isOpen ? "auto" : 0,
-    //opacity: isOpen ? 1 : .5
-  };
+
 
   return (
     <AnimatePresence initial={false}>
