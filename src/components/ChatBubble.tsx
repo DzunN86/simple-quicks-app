@@ -15,7 +15,7 @@ interface ChatBubbleProps {
   selectMessage: () => void;
 }
 
-export default function ChatBubble({ isMe, message, time, messages, name, replyTo, selectMessage }: ChatBubbleProps) {
+export default function ChatBubble({ isMe, message, time, name, replyTo, selectMessage }: ChatBubbleProps) {
   return (
     <div className={cn("flex flex-col", isMe && "items-end")}>
       <p className={cn("font-bold mb-1", isMe ? "text-chat-purple " : "text-chat-green")}>{isMe ? "You" : name}</p>
