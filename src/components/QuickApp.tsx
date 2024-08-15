@@ -77,7 +77,7 @@ export default function QuickApp() {
           </QuickButtonActive>
         )}
         <AnimatePresence mode="popLayout">
-          {!isFabEnabled && (
+          {isFabEnabled && (
             <motion.ul variants={container} initial="hidden" animate="show" exit="hidden" className="absolute right-full mr-6 flex  items-center gap-6">
               {quickActions
                 .filter((action) => action.label !== mode)
