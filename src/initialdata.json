@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "createdAt": "2024-08-13T09:00:00.000Z",
+    "title": "Prepare for Court Hearing",
+    "dateline": "2024-08-14T09:00:00.000Z",
+    "description": "Review all documents and prepare notes for the upcoming court hearing.",
+    "tags": [
+      "Important",
+      "ASAP",
+      "Court Related"
+    ],
+    "status": false,
+    "type": "personal"
+  },
+  {
+    "id": "2",
+    "createdAt": "2024-08-13T10:30:00.000Z",
+    "title": "Client Strategy Meeting",
+    "dateline": "2024-08-14T11:00:00.000Z",
+    "description": "Discuss client strategies and upcoming projects during the virtual meeting.",
+    "tags": [
+      "Important",
+      "Virtual Meeting",
+      "Client Related"
+    ],
+    "status": false,
+    "type": "personal"
+  },
+  {
+    "id": "3",
+    "createdAt": "2024-08-13T12:00:00.000Z",
+    "title": "Team Lunch",
+    "dateline": "2024-08-15T12:00:00.000Z",
+    "description": "Attend team lunch at the downtown restaurant to discuss offline matters.",
+    "tags": [
+      "Offline Meeting",
+      "Appointments"
+    ],
+    "status": true,
+    "type": "urgent"
+  },
+  {
+    "id": "4",
+    "createdAt": "2024-08-13T14:00:00.000Z",
+    "title": "Complete Project Documentation",
+    "dateline": "2024-08-14T17:00:00.000Z",
+    "description": "Finish writing the documentation for the current project.",
+    "tags": [
+      "Self Task",
+      "ASAP"
+    ],
+    "status": false,
+    "type": "urgent"
+  }
+]
