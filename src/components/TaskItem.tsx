@@ -97,7 +97,7 @@ export default function TaskItem({ id, title, dateline, description, status, tag
         </div>
         <div className="flex items-center gap-3">
           
-          {!newTask.status && newTask.dateline && <p className="text-indicator-red text-sm">{calculateDaysLeft(newTask.dateline)}</p>}
+          {newTask.dateline && <p className="text-indicator-red text-sm">{calculateDaysLeft(newTask.dateline)}</p>}
           <p className="text-sm">{newTask.dateline ? format(new Date(newTask.dateline), "dd/MM/yyyy") : ""}</p>
           <button onClick={toggleExpand} className={cn("transition-transform duration-300", expanded ? "rotate-180" : "rotate-0")}>
             <ExpandIcon className="fill-primary-gray hover:fill-primary" />
