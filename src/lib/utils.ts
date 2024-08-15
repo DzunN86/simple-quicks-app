@@ -24,7 +24,7 @@ export const calculateDaysLeft = (dateline: Date | string) => {
   }
   // 1 - 6 days
   if (daysLeft && daysLeft > 0 && daysLeft < 7) {
-    return `Due in ${daysLeft} days`;
+    return daysLeft === 1 ? "1 Day Left" : `${daysLeft} Days Left`;
   }
 
   return null;
